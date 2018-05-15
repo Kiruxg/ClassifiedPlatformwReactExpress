@@ -1,0 +1,189 @@
+.newpost{
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightgray;
+    .newpost1{
+        background-color: white;
+        width: 80%;
+        margin: 30px auto;
+        padding: 90px 0;
+        .wrapper{
+           top: 10%;
+        }
+        h3{
+            font-size: 1.2rem;
+            padding: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 1.1rem;
+            margin: 20px;
+            margin-top: 100px;
+        }
+        div{
+            select{
+                margin: 0 25px;
+                padding: 20px;
+            }
+            padding: 20px;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+        .continue{
+            width: 200px;
+            position: relative;
+            margin: 5% auto;
+            cursor: pointer;
+            p{
+                position: absolute;
+                padding: 20px;
+                margin: 40px;
+                background-color: antiquewhite;
+            }
+        }
+    }
+   
+    
+}
+.newpost{
+    min-height: 100vh;
+    .newpost2{
+        background-color: white;
+        width: 80%;
+        margin: 30px auto;
+        padding: 90px 0;
+          h3{
+            font-size: 1.2rem;
+            padding: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+        div{
+            position: relative;
+        }
+       .continue{
+            width: 200px;
+            cursor: pointer;
+            position: relative;
+            float: right;
+            p{
+                position: absolute;
+                padding: 20px;
+                margin: 20px;
+                background-color: antiquewhite;
+            }
+        }
+    }
+      .formbox{
+        position: absolute;
+        width: 50%;
+        display: inline-block;
+        margin: 5% auto;
+          text-align: center;
+        vertical-align: top;
+          .bold{
+              font-weight: 700;
+          }
+          section{
+              padding: 10px;
+              label{
+                  display: block;
+                  padding: 15px 0;
+                  font-size: 0.9rem;
+              }
+              #desc{
+                  width: 350px;
+                   resize: none;
+              }
+                }
+    }
+    
+}
+.newpost .newpost3{
+    background-color: white;
+        width: 80%;
+        margin: 30px auto;
+        padding: 90px 0;
+          h3{
+            font-size: 1.2rem;
+            padding: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+    .blackbox{
+        background-color: lightgrey;
+        width: 50%;
+        height: 350px;
+        margin: 0 auto;
+        position: relative;
+        div{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+    .continue{
+            width: 200px;
+            cursor: pointer;
+            position: relative;
+            float: right;
+            p{
+                position: absolute;
+                padding: 20px;
+                margin: 20px;
+                background-color: antiquewhite;
+            }
+        }
+}
+@media only screen and (max-width: 900px){
+    .newpost{
+        .newpost1,.newpost2,.newpost3{
+            width: 100%;
+            text-align: center;
+        }
+        .newpost1{
+            div {
+            select{
+                margin: 0 10px;
+                padding: 10px;
+            }
+                padding: 10px;
+            }
+        }
+        .newpost2{
+            .formbox{
+            width: 70%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+  .newpost{
+    .newpost1{
+        p{
+            font-size: 1.2rem;
+        }
+            div {
+            select{
+                display: block;
+                margin: 10px auto; 
+            }
+            }
+        }
+      .newpost2{
+            .formbox{
+            width: 70%;
+                section #desc{
+                    width: 100%;
+                }
+            }
+        }
+
+}
+}
+
+
